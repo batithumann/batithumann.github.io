@@ -1,0 +1,110 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #282a36;
+  color: #f8f8f2;
+}
+
+.navbar-brand {
+  font-family: 'Noto Serif', serif;
+  font-size: 1.5em;
+}
+
+.navbar-brand:hover,
+.navbar-brand:focus,
+.navbar-brand:active {
+  color: #bd93f9;
+}
+
+.bg-dark {
+  background-color: #282a36 !important;
+}
+
+.bg-purple {
+  background-color: #383a59;
+}
+
+.font-purple {
+  color: #bd93f9;
+}
+
+.img-round {
+  border-radius: 100%;
+}
+
+.card {
+  background-color: rgb(34, 33, 44);
+  border-width: 2px;
+  border-color: rgb(65, 69, 88) !important;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px 0px;
+  height: 100%;
+}
+
+button.btn {
+  margin-top: auto;
+}
+
+.btn-danger {
+  background-color: #bd93f9;
+  border-color: #bd93f9;
+}
+
+.btn-danger:hover,
+.btn-danger:active,
+.btn-danger:focus,
+.btn-danger:focus-visible,
+.btn-danger:focus-within,
+.btn-danger:target {
+  background-color: #ff79c6;
+  border-color: #ff79c6;
+}
+
+.btn-outline-danger {
+  border-color: #bd93f9;
+  color: #f8f8f2;
+}
+
+.btn-outline-danger:hover,
+.btn-outline-danger:active,
+.btn-outline-danger:focus,
+.btn-outline-danger:focus-visible,
+.btn-outline-danger:focus-within,
+.btn-outline-danger:target {
+  background-color: #bd93f9;
+  border-color: #bd93f9;
+  color: #f8f8f2;
+}
+/* Navbar */
+
+nav {
+  box-shadow: 0 5px 10px 0 rgba(0,0,0,.15);
+}
+
+footer a,
+.navbar-dark .navbar-nav .nav-link {
+  color: #f8f8f2;
+}
+
+footer a:hover,
+footer a:focus,
+footer a:active,
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:active {
+  color: #bd93f9;
+  text-decoration: underline;
+  text-underline-offset: 0.4em;
+  text-decoration-thickness: 0.1em;
+}
+
+
+@media (max-width: 768px) {
+  #Contacto form label {
+    font-weight: 400;
+  }
+
+  .navbar-brand{
+    width: 100px;
+  }
+
+}
