@@ -4,6 +4,11 @@ body {
   color: #f8f8f2;
 }
 
+.center {
+  display:flex;
+  justify-content: center;
+}
+
 .navbar-brand {
   font-family: 'Noto Serif', serif;
   font-size: 1.5em;
