@@ -1,0 +1,44 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+/* Hero Section */
+
+#Hero-Section {
+  background-image: url("../img/bg-walter.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+#header-right {
+  background: rgb(33,37,41);
+  background: linear-gradient(90deg, rgba(33,37,41,0) 5%, rgba(33,37,41,0.6) 25%, rgba(33,37,41,0.3) 50%, rgba(33,37,41,0) 85%); 
+}
+
+/* Mis trabajos */
+
+#Mis-trabajos .image-top {
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Contacto */
+
+#Contacto form label {
+  font-weight: 700;
+  color: #373a3c;
+}
+
+@media (max-width: 768px) {
+  #Contacto form label {
+    font-weight: 400;
+  }
+
+  .navbar-brand{
+    width: 100px;
+  }
+
+}

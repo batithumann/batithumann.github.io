@@ -40,6 +40,12 @@ body {
   height: 100%;
 }
 
+.card-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 button.btn {
   margin-top: auto;
 }
